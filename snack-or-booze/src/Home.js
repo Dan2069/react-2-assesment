@@ -13,6 +13,14 @@ function Home() {
           </CardTitle>
         </CardBody>
       </Card>
+
+      <Card>
+        <CardBody className ="text-center">
+          <h2 className ="font-weight-bold">
+            Test
+          </h2>
+        </CardBody>
+      </Card>
     </section>
   );
 }
