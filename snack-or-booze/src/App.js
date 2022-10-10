@@ -9,6 +9,7 @@ import Menu from "./FoodMenu";
 import Snack from "./FoodItem";
 import DrinkMenu from "./DrinkMenu";
 import Drink from "./DrinkItem";
+import NewItemForm from "./AddForm";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -57,6 +58,9 @@ function App() {
             </Route>
             <Route path="/drinks/:id">
               <Drink items={drinks} cantFind="/drinks" />
+            </Route>
+            <Route path="/add">
+                <NewItemForm />
             </Route>
             <Route>
               <p>Hmmm. I can't seem to find what you want.</p>

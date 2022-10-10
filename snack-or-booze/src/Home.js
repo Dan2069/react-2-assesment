@@ -17,7 +17,7 @@ function Home() {
       <Card>
         <CardBody className ="text-center">
           <h2 className ="font-weight-bold">
-            Test
+            Our menu consists of 3 Food Items and 4 Drink Items
           </h2>
         </CardBody>
       </Card>
